@@ -4,7 +4,7 @@
 
 Existem duas alternativas: utilizar o `fit` que vai realizar o treinamento considerando as features `X` e o objetivo `y`.
 Contudo, o `scikit-learn` fornece uma alternativa chamada `fit_transform` disponível para alguns modelos que, além de realizar o treinamento, aplica
-as transformações aos dados.
+as transformações aos dados em um único passo.
 
 2. Qual comando utilizado para classificação das amostras?
 
