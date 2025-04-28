@@ -12,6 +12,10 @@ Para classificação devemos utilizar a função `predict` onde podemos passar a
 
 3. Para que servem os pipelines?
 
+As *pipelines* são estruturas que nos permites "aninhar" objetos que serão chamados em sequência. No contexto de pré-processamento dos dados e treinamento, ao invés de criar 2 objetos separados e chamar um a um, podemos criar um *pipeline* que irá chamar o objeto de pré-processamento e resultado será passado para o modelo para treinamento.
+
+Em resumo o *pipeline* serve para encadear tarefas umas as outras, onde a saída de uma tarefa é a entrada de outra.
+
 4. Como podemos usar uma árvore de decisão para realizar uma predição numérica?
 
 5. O que são as fronteiras de decisão?
