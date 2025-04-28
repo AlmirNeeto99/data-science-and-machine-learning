@@ -2,11 +2,13 @@
 
 1. Qual comando principal para iniciar o treinamento de um modelo?
 
-Existem duas alternativas: utilizar o `fit` que vai realizar o treinamento considerando as features `X` e o objetivo `y`.
+Existem duas alternativas: utilizar o `fit` que vai realizar o treinamento considerando as *features* `X` e o objetivo `y`.
 Contudo, o `scikit-learn` fornece uma alternativa chamada `fit_transform` disponível para alguns modelos que, além de realizar o treinamento, aplica
 as transformações aos dados em um único passo.
 
 2. Qual comando utilizado para classificação das amostras?
+
+Para classificação devemos utilizar a função `predict` onde podemos passar as *features* da(s) amostra(s) e termos a lista de classificação.
 
 3. Para que servem os pipelines?
 
