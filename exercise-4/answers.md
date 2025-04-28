@@ -18,6 +18,8 @@ Em resumo o *pipeline* serve para encadear tarefas umas as outras, onde a saída
 
 4. Como podemos usar uma árvore de decisão para realizar uma predição numérica?
 
+Utilizar uma árvore de decisão para regressão numérica é semelhante a tarefa de classificação. Com a diferença de que, para a regressão utilizamos a classe `DecisionTreeRegressor` e as *targets* `y` deve ser números a serem predizidos ao invés de *logits* das classes.
+
 5. O que são as fronteiras de decisão?
 
 6. Qual comando utilizado para particionamento de dados entre treino e teste? Quais seus principais argumentos?
