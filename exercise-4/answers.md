@@ -45,6 +45,11 @@ Com base na ponderação utilizada, podemos configurar os pesos dos vizinhos com
 
 9. Considerando o classificar do tipo Naive Bayes, como especificar as probabilidades a priori das classes diretamente, ou seja, sem computar a partir dos dados?
 
+Durante a inicialização das classes de classificação **Naive Bayes** existem parâmetros que podemos definir para configurar a probabilidade a priori das amostras.
+
+- `GaussianNB` dispõe do parâmetro `priors` que define a probabilidade inicial das amostras
+- As classes `MultinomialNB` e `ComplementNB` fornecem o parâmetro `class_prior`
+
 10. Considerando os datasets “moons”, “circles” e “linearly separable”. Qual classificador apresenta a melhor eficácia para cada um e qual apresenta a pior eficácia? Justifique.
 
 11. Considerando classificadores do tipo árvore de decisão, o que é chamado de “caminho de decisão”?
