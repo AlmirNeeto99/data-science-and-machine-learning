@@ -41,6 +41,8 @@ A classe `KNeighborsClassifier`, no momento de sua inicialização, recebe o par
 
 8. Considerando um classificador do tipo vizinhos mais próximos, qual o impacto em se utilizar poderação tipo uniforme ou baseada em distância?
 
+Com base na ponderação utilizada, podemos configurar os pesos dos vizinhos com base distância. Ao utilizar a ponderação **uniforme** todos os vizinhos têm o mesmo impacto na decisão, enquanto a ponderação baseada em distância, ou seja, vizinhos mais próximos têm maior influência do que os vizinhos mais distantes.
+
 9. Considerando o classificar do tipo Naive Bayes, como especificar as probabilidades a priori das classes diretamente, ou seja, sem computar a partir dos dados?
 
 10. Considerando os datasets “moons”, “circles” e “linearly separable”. Qual classificador apresenta a melhor eficácia para cada um e qual apresenta a pior eficácia? Justifique.
