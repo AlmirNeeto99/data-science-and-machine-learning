@@ -57,3 +57,5 @@ Durante a inicialização das classes de classificação **Naive Bayes** existem
 - `Linear Separable`: Esse dataset é o mais complexo de decidir o melhor modelo visto que 7 alternativas obtiveram **score** igual a 0.95 e os piores modelos obtiveram 0.93 de **score**. Não existe um modelo ideal claro, outros testes de validação precisariam ser realizados. Mas, dado que o dataset contém dados linearmente separáveis, muitos modelos são boas escolhas para esse problema.
 
 11. Considerando classificadores do tipo árvore de decisão, o que é chamado de “caminho de decisão”?
+
+O **Caminho de Decisão** são os nós que os determinada amostra passou até a classificação final. Ele nos permite visualizar as regras validadas e o caminho escolhido por uma determinada amostra. Com isso, podemos visualizar claramente as decisões tomadas por um caso de teste.
