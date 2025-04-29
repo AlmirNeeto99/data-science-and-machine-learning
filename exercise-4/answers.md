@@ -52,4 +52,8 @@ Durante a inicialização das classes de classificação **Naive Bayes** existem
 
 10. Considerando os datasets “moons”, “circles” e “linearly separable”. Qual classificador apresenta a melhor eficácia para cada um e qual apresenta a pior eficácia? Justifique.
 
+- `Moons`: para esse dataset, o melhor classificador foi o `Nearest Neighbors` que obteve um **score** de 0.97 e o pior foi o `QDA` que obteve **score** de 0.85. Além do `Nearest Neighbors` outros classificadores obtiveram score igual ou próximo, contudo, esse classificador foi capaz de aproximar bem aos dados sem *overfitting*, enquanto outros classificadores como o `RBF SVM` ficou extremamente ligado aos dados, isto é, com alta variância e portanto, não generaliza para novos dados.
+- `Circles`: para esse dataset, o `Nearest Neighbors` também foi o melhor classificador em termos de **score**. Enquanto o pior modelo foi o `Linear SVM`.
+- `Linear Separable`: Esse dataset é o mais complexo de decidir o melhor modelo visto que 7 alternativas obtiveram **score** igual a 0.95 e os piores modelos obtiveram 0.93 de **score**. Não existe um modelo ideal claro, outros testes de validação precisariam ser realizados. Mas, dado que o dataset contém dados linearmente separáveis, muitos modelos são boas escolhas para esse problema.
+
 11. Considerando classificadores do tipo árvore de decisão, o que é chamado de “caminho de decisão”?
