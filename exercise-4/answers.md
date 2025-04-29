@@ -26,6 +26,15 @@ As fronteiras de decisão são estruturas que contém as combinações de limite
 
 6. Qual comando utilizado para particionamento de dados entre treino e teste? Quais seus principais argumentos?
 
+O `scikit-learn` disponibilidade uma função chamada `train_test_split`. Essa função recebe o dataset completo para uma determinada tarefa e separa o dataset entre dois novos conjuntos: dados de treinamento e dados de teste.
+Os dados de treinamento são utilizados para realizar o treinamento do modelo e os dados de teste são utilizados para testar o modelo, isto é, validar o modelo em dados diferentes dos dados de treinamento.
+
+Alguns dos principais argumentos são:
+
+- `train_size`: a proporção do dataset original que deve ser utilizado para treinamento
+- `test_size`: a propoção do dataset que deve ser utilizado para teste
+- `stratify`: esse parâmetro indica que o dataset deve ser dividido de forma que a mesma proporção de classes estejam presentes em cada dataset.
+
 7. Considerando um classificador do tipo vizinhos mais próximos, como especificar quantos vizinhos devem ser considerados no processo de classificação?
 
 8. Considerando um classificador do tipo vizinhos mais próximos, qual o impacto em se utilizar poderação tipo uniforme ou baseada em distância?
