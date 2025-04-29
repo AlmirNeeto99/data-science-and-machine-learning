@@ -22,6 +22,8 @@ Utilizar uma árvore de decisão para regressão numérica é semelhante a taref
 
 5. O que são as fronteiras de decisão?
 
+As fronteiras de decisão são estruturas que contém as combinações de limite para as regras aprendidas dos dados de treinamento. Ou seja, as fronteiras de decisão definem as possíveis escolham de uma árvore de decisão.
+
 6. Qual comando utilizado para particionamento de dados entre treino e teste? Quais seus principais argumentos?
 
 7. Considerando um classificador do tipo vizinhos mais próximos, como especificar quantos vizinhos devem ser considerados no processo de classificação?
