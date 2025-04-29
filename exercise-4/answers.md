@@ -37,6 +37,8 @@ Alguns dos principais argumentos são:
 
 7. Considerando um classificador do tipo vizinhos mais próximos, como especificar quantos vizinhos devem ser considerados no processo de classificação?
 
+A classe `KNeighborsClassifier`, no momento de sua inicialização, recebe o parâmetro `n_neighbors` que define a quantidade de vizinhos que devem ser considerados na classificação.
+
 8. Considerando um classificador do tipo vizinhos mais próximos, qual o impacto em se utilizar poderação tipo uniforme ou baseada em distância?
 
 9. Considerando o classificar do tipo Naive Bayes, como especificar as probabilidades a priori das classes diretamente, ou seja, sem computar a partir dos dados?
